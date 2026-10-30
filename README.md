@@ -1,18 +1,26 @@
-# Pokémon cards
+# Pokémon lists and cards with Angular
 
 [English](#overview) · [Español](#resumen)
 
 ## Overview
 
-Angular/TypeScript exercise with Pokemon list and card components.
+Angular exercise that separates the Pokémon list, individual cards and HTTP data access. The component boundaries make it possible to follow a response from the service into the displayed card.
 
-An earlier learning exercise. The source is preserved with its original toolchain; compatibility with current versions has not been revalidated.
+This historical source still needs a current build, API/error checks and a responsive review. Referenced Pokémon names and imagery are not original portfolio assets.
+
+- [`pokemon-list.component.ts`](src/app/pokemon-list/pokemon-list.component.ts)
+- [`poke-card.component.ts`](src/app/poke-card/poke-card.component.ts)
+- [`pokemon-service.service.ts`](src/app/Services/pokemon-service.service.ts)
+
+[package.json](package.json): The package file records the original scripts and dependencies; package-lock.json retains their resolution.
 
 ## Resumen
 
-Ejercicio Angular/TypeScript con componentes de listado y tarjeta Pokémon.
+Ejercicio Angular que separa el listado de Pokémon, las tarjetas y el acceso HTTP. La organización permite seguir una respuesta desde el servicio hasta su tarjeta.
 
-Ejercicio de una etapa anterior de aprendizaje. Se conserva con sus herramientas originales; no se ha vuelto a validar con versiones actuales.
+Estas fuentes históricas necesitan comprobar build, API, errores y adaptación a distintos anchos. Los nombres e imágenes Pokémon referenciados no son recursos originales del portfolio.
+
+Consulta los archivos enlazados arriba para seguir la implementación. [package.json](package.json): El paquete recoge los scripts y dependencias originales; package-lock.json conserva su resolución.
 
 <details>
 <summary>Original documentation and credits · Documentación y créditos originales</summary>
